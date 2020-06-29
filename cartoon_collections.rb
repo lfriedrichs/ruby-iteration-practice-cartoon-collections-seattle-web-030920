@@ -11,7 +11,7 @@ def long_planeteer_calls(words)
   !words.select {|word| word.size > 4}.empty?
 end
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
+def find_the_cheese(snacks)
+  snacks.select {|snack| cheese_types.include?
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
